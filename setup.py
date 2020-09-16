@@ -58,6 +58,7 @@ setup(
     version=version,
     description="Configuration-oriented encryption toolkit to make secure config files simple",
     long_description=long_description,
+    long_description_content_type="text/x-rst",
     url="https://bitbucket.org/nthmost/python-secureconfig",
     author="Naomi Most",
     author_email="naomi@nthmost.net",
