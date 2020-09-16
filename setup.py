@@ -29,7 +29,7 @@ class sdist(_sdist):
         # Make sure the compiled Cython files in the distribution are up-to-date
         from Cython.Build import cythonize
         print("cythonizing...")
-        cythonize(['cython/mycythonmodule.pyx'])
+        cythonize(['secureconfig/zeromem.pyx'])
         _sdist.run(self)
 
 
