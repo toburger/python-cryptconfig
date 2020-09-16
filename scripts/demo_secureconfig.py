@@ -2,7 +2,7 @@ from __future__ import print_function
 
 import os
 
-from secureconfig import SecureConfig
+from cryptconfig import SecureConfig
 
 CWD = os.path.dirname(os.path.realpath(__file__))
 output_path = os.path.join(CWD, 'demo_secureconfig_data.enc')

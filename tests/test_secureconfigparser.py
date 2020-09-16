@@ -10,8 +10,8 @@ except ImportError:
 
 from cryptography.fernet import InvalidToken
 
-from secureconfig.cryptkeeper import *
-from secureconfig.secureconfigparser import SecureConfigParser
+from cryptconfig.cryptkeeper import *
+from cryptconfig.secureconfigparser import SecureConfigParser
 
 CWD = os.path.dirname(os.path.realpath(__file__))
 

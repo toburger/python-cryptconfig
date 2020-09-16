@@ -4,9 +4,9 @@ import unittest, os, json
 
 from cryptography.fernet import InvalidToken
 
-from secureconfig.cryptkeeper import *
-from secureconfig import SecureConfig, SecureJson
-from secureconfig import SecureConfigException
+from cryptconfig.cryptkeeper import *
+from cryptconfig import SecureConfig, SecureJson
+from cryptconfig import SecureConfigException
 
 CWD = os.path.dirname(os.path.realpath(__file__))
 

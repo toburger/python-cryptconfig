@@ -2,7 +2,7 @@ from __future__ import print_function
 
 import os
 
-from secureconfig import SecureConfig
+from cryptconfig import SecureConfig
 
 # here we're going to open the file we encrypted in the previous demo
 # and make sure we can decrypt and parse it using the same keystring.

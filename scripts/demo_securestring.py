@@ -2,7 +2,7 @@ from __future__ import print_function
 
 import ctypes, sys, gc
 
-from secureconfig import SecureString, zeromem
+from cryptconfig import SecureString, zeromem
 
 def show_mem(ctypes_tuple):
     location = ctypes_tuple[0]

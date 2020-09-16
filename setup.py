@@ -29,23 +29,23 @@ class sdist(_sdist):
         # Make sure the compiled Cython files in the distribution are up-to-date
         from Cython.Build import cythonize
         print("cythonizing...")
-        cythonize(['secureconfig/zeromem.pyx'])
+        cythonize(['cryptconfig/zeromem.pyx'])
         _sdist.run(self)
 
 
 cmdclass['sdist'] = sdist
 
 if use_cython:
-    ext_modules += [Extension('secureconfig.zeromem', sources=['secureconfig/zeromem.pyx']), ]
+    ext_modules += [Extension('cryptconfig.zeromem', sources=['cryptconfig/zeromem.pyx']), ]
     cmdclass.update({'build_ext': build_ext})
     print(cmdclass)
 else:
-    ext_modules += [Extension('secureconfig.zeromem', sources=['secureconfig/zeromem.c']), ]
+    ext_modules += [Extension('cryptconfig.zeromem', sources=['cryptconfig/zeromem.c']), ]
 
 
 # Version info -- read without importing
 _locals = {}
-with open("secureconfig/_version.py") as fp:
+with open("cryptconfig/_version.py") as fp:
     exec(fp.read(), None, _locals)
 version = _locals["__version__"]
 

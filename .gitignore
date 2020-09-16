@@ -1,7 +1,7 @@
 Pipfile
 build/
 dist/
-secureconfig.egg-info/
+cryptconfig.egg-info/
 tests/cfg_test.ini
 tests/ck_test_key
 tests/new_encrypted_values.ini

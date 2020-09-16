@@ -3,7 +3,7 @@ import cryptography
 
 from cryptography.fernet import InvalidToken
 
-from secureconfig.cryptkeeper import *
+from cryptconfig.cryptkeeper import *
 
 CWD = os.path.dirname(os.path.realpath(__file__))
 

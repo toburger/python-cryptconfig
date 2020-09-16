@@ -5,7 +5,7 @@ import gc
 import sys
 import unittest
 
-from secureconfig import SecureString
+from cryptconfig import SecureString
 
 
 def get_from_mem(ctypes_tuple):
