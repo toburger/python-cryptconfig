@@ -4,12 +4,7 @@ import cryptography
 
 from .baseclass import cryptkeeper_access_methods
 
-try:
-    # New style
-    from configparser import ConfigParser, NoSectionError, NoOptionError
-except ImportError:
-    # Old style
-    from ConfigParser import ConfigParser, NoSectionError, NoOptionError
+from configparser import ConfigParser, NoSectionError, NoOptionError
 
 
 # SECURECONFIG pattern:

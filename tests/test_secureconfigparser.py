@@ -1,11 +1,6 @@
 import unittest
 import cryptography
-try:
-    # New style
-    from configparser import ConfigParser
-except ImportError:
-    # Old style
-    from ConfigParser import ConfigParser, NoSectionError, NoOptionError
+from configparser import ConfigParser
 
 
 from cryptography.fernet import InvalidToken
