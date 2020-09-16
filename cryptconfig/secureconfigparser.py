@@ -43,7 +43,7 @@ class SecureConfigParser(ConfigParser, cryptkeeper_access_methods):
     def read(self, filenames):
         """Read the list of config files."""
         # print("[DEBUG] filenames: ", filenames)
-        ConfigParser.read(self, filenames)
+        return ConfigParser.read(self, filenames)
 
     def raw_get(self, sec, key, default=None):
         """Get the raw value without decoding it."""
