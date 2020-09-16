@@ -54,7 +54,7 @@ with open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="secureconfig",
+    name="cryptconfig",
     version=version,
     description="Configuration-oriented encryption toolkit to make secure config files simple",
     long_description=long_description,
@@ -62,8 +62,8 @@ setup(
     url="https://bitbucket.org/nthmost/python-secureconfig",
     author="Naomi Most",
     author_email="naomi@nthmost.net",
-    maintainer="Naomi Most",
-    maintainer_email="naomi@nthmost.net",
+    maintainer="Tobias Burger",
+    maintainer_email="tobias_burger@hotmail.com",
     cmdclass=cmdclass,
     ext_modules=ext_modules,
     license="MIT",
