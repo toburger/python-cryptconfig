@@ -1,6 +1,6 @@
-************
-secureconfig
-************
+******************************
+secureconfig (now cryptconfig)
+******************************
 
 by Naomi Most (@nthmost)
 
