@@ -3,6 +3,7 @@ build/
 dist/
 cryptconfig.egg-info/
 __pycache__/
+wheelhouse/
 tests/cfg_test.ini
 tests/ck_test_key
 tests/new_encrypted_values.ini
